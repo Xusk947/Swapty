@@ -1,0 +1,21 @@
+
+
+/*  All colors like in telegram but more glassy */
+/* Do NOT change color because it will automatically change in color settings of each component */
+
+
+/* Button which on hover scale size a bit */
+
+.scale-on-hover {
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.scale-on-hover:hover {
+    transform: scale(1.1) ;
+}
+
+.scale-on-hover:active {
+    transform: scale(0.9) ;
+}
+
+/* End region */
