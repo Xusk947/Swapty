@@ -1,11 +1,13 @@
 import './App.css'
 import { NavBar } from './components/NavBar/NavBar'
-
+import './styles/baseStyle.css'
 function App() {
   return (
     <>
       <NavBar/>
-      haha
+      <p>
+        haha
+      </p>
     </>
   )
 }
