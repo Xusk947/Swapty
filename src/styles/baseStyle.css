@@ -1,21 +1,38 @@
+html {
+    --tg-theme-bg-color: #F7F9FB;
+    --tg-theme-secondary-bg-color: #F2F2F2;
+    --tg-theme-button-color: #0098EA;
+    --tg-theme-accent-text-color: #FFFFFF;
+    --tg-theme-section-text-color: #000000;
+    --tg-theme-hint-color: #B4B4B4;
+    --swapy-max-width: 600px;
 
+    text-align: center;
 
-/*  All colors like in telegram but more glassy */
-/* Do NOT change color because it will automatically change in color settings of each component */
+    line-height: 1.5;
+    font-weight: 400;
 
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 
-/* Button which on hover scale size a bit */
-
-.scale-on-hover {
-    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 0 auto;
 }
 
-.scale-on-hover:hover {
-    transform: scale(1.1) ;
+body {
+    background-color: var(--tg-theme-bg-color);
 }
 
-.scale-on-hover:active {
-    transform: scale(0.9) ;
+.hint {
+    color: var(--tg-theme-hint-color);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1;
+    text-align: left;
 }
-
-/* End region */

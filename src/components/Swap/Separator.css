@@ -1,0 +1,16 @@
+.button-flex-container {
+    display: flex;
+    align-items: center;
+}
+.button-flex-container .divider {
+    flex: 1;
+    height: 1.25px;
+    background-color: var(--tg-theme-hint-color); /* Change color of divider line */
+}
+.arrow-button {
+    background-color: var(--tg-theme-bg-color);
+    border: 1.5px solid var(--tg-theme-hint-color);
+    border-radius: 40px;
+    padding: 3px 10px;
+    cursor: pointer;
+}

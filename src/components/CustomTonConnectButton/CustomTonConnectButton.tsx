@@ -1,10 +1,16 @@
 import { TonConnectButton } from '@tonconnect/ui-react'
 import './CustomTonConnectButton.css'
+import { motion } from 'framer-motion'
 
-export function CustomTonConnectButton () {
+export function CustomTonConnectButton() {
     return (
         <>
-            <TonConnectButton className='scale-on-hover ton-connect-button'/>
+            <motion.a 
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                >
+                <TonConnectButton/>
+            </motion.a>
         </>
     )
 }

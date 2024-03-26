@@ -1,13 +1,14 @@
 import './App.css'
-import { NavBar } from './components/NavBar/NavBar'
+import { CustomHeader } from './components/Header/Header'
+import { Swap } from './components/Swap/Swap'
 import './styles/baseStyle.css'
+
+
 function App() {
   return (
     <>
-      <NavBar/>
-      <p>
-        haha
-      </p>
+      <CustomHeader/>
+      <Swap/>
     </>
   )
 }
